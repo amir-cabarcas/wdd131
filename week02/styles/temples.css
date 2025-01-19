@@ -1,0 +1,25 @@
+@media screen and (max-width: 425px) {
+    body {
+        font-family: var(--text-font);
+    }
+
+    main {
+        max-width: 0 auto;
+        margin: 1rem auto;
+        padding: 1%;
+    }
+
+    .figures img {
+        width: 50px;
+        height: auto;
+    }
+    
+    .figures {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    
+    
+
+}

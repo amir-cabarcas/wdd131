@@ -15,4 +15,3 @@ if (currentYear) {
 if (lastModified) {
   lastModified.innerHTML = `Last Modified: ${modifiedDate.toLocaleDateString()} ${modifiedDate.toLocaleTimeString()}`; // Fecha y hora en formato legible
 }
-
