@@ -60,12 +60,6 @@ main h1 {
     height: auto;
 }
 
-.figures {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;  
-}
-
 figcaption {
     text-align: center;
 }
