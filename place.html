@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Amir Cabarcas Sanchez</title>
+    <meta name="author" content="Amir Cabarcas Sanchez">
+    <meta name="description" content="This website was created to be graded on WDD 131 - Dynamic Web Fundamentals and submitting my assignments to my teacher Robert Patten.">
+    <link rel="stylesheet" href="style/place.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
+    <script src="script/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Colombia</h1>
+    </header>
+    <main>
+        <div class="Hero-img">
+            <picture>
+                <source media="(max-width: 425px)" srcset="images/condor-phone-view.jpg">
+                <source media="(min-width: 426px)" srcset="images/condor-pc-view.jpg">
+                <img src="images/condor-pc-view.jpg" alt="Image Condor Andino">
+            </picture>
+        </div>
+        <div class="data">
+            <h1>Data</h1>
+            <p>Area: 1,14 millones km²</p>
+            <p>Population: 52 996 664</p>
+            <p>Capital: Bogotá</p>
+            <p>Lenguages: Spanish</p>
+            <p>Currency: COP</p>
+            <p>Time Zone: UTC-5</p>
+            <p>Calling Code: +57</p>
+            <p>Internet TLD: .co</p>
+        </div>
+        <div class="weather">
+            <h1>Weather</h1>
+            <img src="images/icon-weather.svg" alt="Icon Weather">
+            <p>Temperature: 18°C</p>
+            <p>Conditions: Mostly Sunny</p>
+            <p>Wind: 17 km/h</p>
+            <p>Wind Chill : <span id="wind-chill"></span>°C</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear">2025</span> | Amir Cabarcas Sanchez | Colombia</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
