@@ -39,7 +39,6 @@ header h1 {
     top: 20%;
     left: 3%;
     box-sizing: border-box;
-    box-shadow: 2cm;
     color: black;
     background-color: var(--second-color);
 }
