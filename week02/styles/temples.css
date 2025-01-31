@@ -58,12 +58,10 @@ nav {
 }
 
 
-.main {
-    .figures {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1rem; 
-  }
+.main .figures {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem; 
 }
 
 
@@ -86,12 +84,10 @@ In most WDD courses there is a requirement to use a separate file. This part wou
 		display: none;
 	}
 
-    .main {
-        .figures {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 10px;  
-        }
+    .main .figures {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;  
     }
 
 }
