@@ -19,3 +19,9 @@ header {
     padding: 1%;
     color: white;
 }
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1%;
+}
