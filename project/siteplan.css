@@ -1,0 +1,21 @@
+:root {
+    --heading-font: "EB Garamond";
+    --text-font: "Lato";
+    --primary-color: #2196F3;
+    --secondary-color: #9ACEF8;
+}
+
+h1 {
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--text-font);
+}
+
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1%;
+    color: white;
+}
