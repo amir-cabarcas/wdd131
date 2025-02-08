@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Revier form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="formReview">
+            <label for="selectProduct">Select Product*</label>
+            <select id="selectProduct" name="selectProduct" required>
+                <option value="product" disabled selected>Select a Product..</option>
+            </select>
+            <label for="overallRafting">Overall Rating</label>
+
+            <div class="star">
+                <input type="radio" id="overallRafting" name="overallRafting" value="1" required>
+                <label for="overallRafting" class="star-label">☆</label>
+
+                <input type="radio" id="overallRafting" name="overallRafting" value="2" required>
+                <label for="overallRafting" class="star-label">☆☆</label>
+
+                <input type="radio" id="overallRafting" name="overallRafting" value="3" required>
+                <label for="overallRafting" class="star-label">☆☆☆</label>
+
+                <input type="radio" id="overallRafting" name="overallRafting" value="4" required>
+                <label for="overallRafting" class="star-label">☆☆☆☆</label>
+
+                <input type="radio" id="overallRafting" name="overallRafting" value="5" required>
+                <label for="overallRafting" class="star-label">☆☆☆☆☆</label>
+            </div>
+            
+            <label for="DateOfInstallation">Date Of Installation</label>
+            <input type="date" name="DateOfInstallation" id="DateOfInstallation" required>
+
+            <label for="UsefulFeatures">Which features did you find uselful in the product?<br>(Check all that apply)</label>
+
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="UsefulFeatures" value="durability"> Durability</label>
+                <label><input type="checkbox" name="UsefulFeatures" value="EaseOfUse"> Ease Of Use</label>
+                <label><input type="checkbox" name="UsefulFeatures" value="performance"> Performance</label>
+                <label><input type="checkbox" name="UsefulFeatures" value="design"> Design</label>
+            </div>
+
+            <div class="review">
+                <label for="review">Review<span style="color: blue;">(optional)</span></label>
+                <input type="textarea" id="review" name="review">
+            </div>
+
+            <div class="UserName">
+                <label for="name">Name<span style="color: blue;">(optional)</span></label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Post Review">
+            </div>
+
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear">2025</span> | Amir Cabarcas Sanchez | Colombia</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
